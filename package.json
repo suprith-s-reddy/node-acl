@@ -1,5 +1,5 @@
 {
-  "name": "@suprith/node-acl-pro",
+  "name": "@suprith/node-acl",
   "version": "0.5.14",
   "description": "Updated version of node acl",
   "keywords": [
@@ -42,5 +42,6 @@
     "lib": "lib",
     "test": "test"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "author": "hello@suprithreddy.com"
 }
