@@ -1,5 +1,5 @@
 {
-  "name": "acl",
+  "name": "node-acl",
   "version": "0.5.14",
   "description": "Updated version of node acl",
   "keywords": [
@@ -9,8 +9,11 @@
     "fixed node acl mongoose deprecation",
     "fixed mongodb version"
   ],
-  "repository": "https://github.com/suprith_s_reddy/node-acl.git",
-  "author": "Manuel Astudillo <manuel@optimalbits.com>, Abdelaziz Al Rihawi <aa@ophigo.com>, Suprith Reddy <hello@suprithreddy.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suprith_s_reddy/node-acl.git"
+  },
+  "author": "Manuel Astudillo <manuel@optimalbits.com>",
   "homepage": "https://github.com/suprith_s_reddy/node-acl",
   "engines": {
     "node": ">= 0.10"
@@ -32,5 +35,13 @@
     "test": "mocha test/runner.js --reporter spec --timeout 15000",
     "cover": "istanbul cover -- _mocha test/runner.js --reporter spec",
     "coverage": "nyc npm run test"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/suprith_s_reddy/node-acl/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "ISC"
 }
