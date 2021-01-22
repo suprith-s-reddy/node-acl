@@ -13,7 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/suprith_s_reddy/node-acl.git"
   },
-  "author": "Manuel Astudillo <manuel@optimalbits.com>, Abdelaziz Al Rihawi <aa@ophigo.com>, Suprith Reddy <hello@suprithreddy.com>",
   "homepage": "https://github.com/suprith_s_reddy/node-acl",
   "engines": {
     "node": ">= 0.10"
