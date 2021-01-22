@@ -1,5 +1,5 @@
 {
-  "name": "@suprith_s_reddy/node-acl",
+  "name": "@suprith/node-acl-pro",
   "version": "0.5.14",
   "description": "Updated version of node acl",
   "keywords": [
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/suprith_s_reddy/node-acl.git"
   },
-  "author": "Manuel Astudillo <manuel@optimalbits.com>",
+  "author": "Manuel Astudillo <manuel@optimalbits.com>, Abdelaziz Al Rihawi <aa@ophigo.com>, Suprith Reddy <hello@suprithreddy.com>",
   "homepage": "https://github.com/suprith_s_reddy/node-acl",
   "engines": {
     "node": ">= 0.10"
