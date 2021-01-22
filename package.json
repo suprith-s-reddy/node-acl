@@ -1,6 +1,6 @@
 {
   "name": "@suprith/node-acl",
-  "version": "0.5.14",
+  "version": "0.5.15",
   "description": "Updated version of node acl",
   "keywords": [
     "middleware",
@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suprith_s_reddy/node-acl.git"
+    "url": "git+https://github.com/suprith-s-reddy/node-acl.git"
   },
-  "homepage": "https://github.com/suprith_s_reddy/node-acl",
+  "homepage": "https://github.com/suprith-s-reddy/node-acl",
   "engines": {
     "node": ">= 0.10"
   },
@@ -36,7 +36,7 @@
     "coverage": "nyc npm run test"
   },
   "bugs": {
-    "url": "https://github.com/suprith_s_reddy/node-acl/issues"
+    "url": "https://github.com/suprith-s-reddy/node-acl/issues"
   },
   "directories": {
     "lib": "lib",
