@@ -1,0 +1,36 @@
+{
+  "name": "@suprith_s_reddy/acl",
+  "version": "0.5.14",
+  "description": "Updated version of node acl",
+  "keywords": [
+    "middleware",
+    "acl",
+    "web",
+    "fixed node acl mongoose deprecation",
+    "fixed mongodb version"
+  ],
+  "repository": "https://github.com/suprith_s_reddy/node-acl.git",
+  "author": "Manuel Astudillo <manuel@optimalbits.com>, Abdelaziz Al Rihawi <aa@ophigo.com>, Suprith Reddy <hello@suprithreddy.com>",
+  "homepage": "https://github.com/suprith_s_reddy/node-acl",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "async": "^2.6.3",
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.3",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^6.2.3",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "mocha test/runner.js --reporter spec --timeout 15000",
+    "cover": "istanbul cover -- _mocha test/runner.js --reporter spec",
+    "coverage": "nyc npm run test"
+  }
+}
