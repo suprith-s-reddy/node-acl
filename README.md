@@ -1,6 +1,7 @@
 # Fixed NODE ACL - Access Control Lists for Node
-
 This module provides a minimalistic ACL implementation inspired by Zend_ACL and NODE ACL([node_acl](https://github.com/optimalbits/node_acl)).
+
+This is a latest version with all the packages updated. The node compatibility of this page is improved to node 15 and above.
 
 When you develop a web site or application you will soon notice that sessions are not enough to protect all the
 available resources. Avoiding that malicious users access other users content proves a much more
