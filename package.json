@@ -1,6 +1,6 @@
 {
   "name": "@suprith/node-acl",
-  "version": "0.5.15",
+  "version": "0.5.16",
   "description": "Updated version of node acl",
   "keywords": [
     "middleware",

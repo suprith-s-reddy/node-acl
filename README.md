@@ -29,7 +29,7 @@ Follow [manast](http://twitter.com/manast) for news and updates regarding this l
 Using npm:
 
 ```javascript
-npm install @ophigo/acl
+npm install @suprith/node-acl
 ```
 
 ## Documentation
